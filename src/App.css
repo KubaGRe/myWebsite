@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+body{
+    font-family: "Roboto Condesed", sans-serif;    
+}
+
+/***NAVBAR***/
+nav{
+    margin-top: -70px;
+    display: flex;
+	align-items: center;
+    z-index: 2;
+    height: 70px;
+	min-height: 70px;
+}
+
+.expanded{
+    margin-top: 100px
+}
+
+.not-expanded{
+    margin-top: 0px
+}
+
+.logo{
+    width: 100px;
+    margin-top: -15px;
+    margin-bottom: -20px;
+}
+
+/***NAVBAR LINKS***/
+nav a.nav-link{    
+    font-weight: 700;
+    letter-spacing: 0.04rem;
+    cursor: pointer;
+}
+
+.show{
+    margin-top: 20px;
+}
+
+.navbar-nav > li > a{      
+    color: white !important;
+    border-bottom: 0.2rem solid rgb(255, 255, 255,0);
+    
+}
+
+nav ul li{
+    text-transform: uppercase;
+    
+}
+
+.navbar-nav > li > a.active, .navbar-nav > li > a.active:focus{
+    border-bottom: 0.2rem solid rgb(6, 6, 90);   
+}
+
+.navbar-nav > li > a:hover{    
+    border-bottom: 0.2rem solid rgb(36, 36, 129);
+    color: rgb(36, 36, 129);
+}
+
+/*************Header*************/
+/*.header-wraper{
+    position: relative;
+    background: url(mug-pc.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 93vh;
+}*/
+
+#header-wraper{
+    background-color: rgb(20, 20, 44);
+    background-size: cover;    
+    height: 100vh;
+}
+
+.main{
+    padding-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    
+    font-family: "Roboto Condesed", sans-serif;
+}
+
+.main-info{    
+    font-size: 3vw;
+    padding: 10px;
+    margin-top: 50px;
+    border-radius: 40px;
+    border-color: rgb(20, 20, 44);
+    border-style: solid;
+    color: white;
+    width: 50vw;
+    height: 15vw;
+    background-color: rgb(20, 20, 44, 0.5);
+    word-wrap: break-word;
+}
+
+
+.main-info h1{
+    color: white;
+    text-transform: uppercase;
+}
+
+/****TYPED TEXT****/
+.typed-text{
+    font-size: 2rem;
+    color: black;
+}
+
+
+/***ABOUT ME***/
+.aboutme-wraper{
+    position: relative;
+    background-color: rgb(20, 20, 44);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.about-me{
+    padding-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.about-me-info{
+    margin-top: 50px;
+    border-radius: 2vw;
+    border-color: white;
+    border-style: solid;
+    color: white;
+    width: 90vw;
+    height: 85vh;
+}
+
+.about-info-description{
+    font-size: calc(12px + 1.3vw);
+    margin-right: 1.5vw;
+    margin-left: 1.5vw;
+}
+
+.about-info-image{
+    border-radius: 30%;
+    float: left;
+    height: 18vw;
+    max-height: 400px;
+    min-height: 190px;
+    width: 18vw;
+    max-width: 400px;
+    min-width: 190px;
+    margin: 50px;
+}
+
+/***PROJECTS***/
+.projects-wraper{
+    position: relative;
+    background-color: rgb(20, 20, 44);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+
+/***MEDIA***/
+.media-wraper{
+    position: relative;
+    background-color: rgb(20, 20, 44);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
